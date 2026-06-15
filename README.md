@@ -69,3 +69,4 @@ cmake -B build && cmake --build build
 ./build/kv-server
 redis-cli PING
 ```
+deal with scaling issues
