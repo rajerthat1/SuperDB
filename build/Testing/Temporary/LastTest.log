@@ -1,0 +1,786 @@
+Start testing: Jun 22 17:11 PDT
+----------------------------------------------------------
+1/29 Testing: RespParser.Ping
+1/29 Test: RespParser.Ping
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.Ping" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.Ping" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.Ping
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.Ping
+[       OK ] RespParser.Ping (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.Ping" end time: Jun 22 17:11 PDT
+"RespParser.Ping" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/29 Testing: RespParser.Set
+2/29 Test: RespParser.Set
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.Set" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.Set" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.Set
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.Set
+[       OK ] RespParser.Set (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.Set" end time: Jun 22 17:11 PDT
+"RespParser.Set" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/29 Testing: RespParser.Get
+3/29 Test: RespParser.Get
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.Get" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.Get" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.Get
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.Get
+[       OK ] RespParser.Get (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.Get" end time: Jun 22 17:11 PDT
+"RespParser.Get" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/29 Testing: RespParser.Del
+4/29 Test: RespParser.Del
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.Del" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.Del" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.Del
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.Del
+[       OK ] RespParser.Del (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.Del" end time: Jun 22 17:11 PDT
+"RespParser.Del" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/29 Testing: RespParser.Exists
+5/29 Test: RespParser.Exists
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.Exists" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.Exists" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.Exists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.Exists
+[       OK ] RespParser.Exists (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.Exists" end time: Jun 22 17:11 PDT
+"RespParser.Exists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/29 Testing: RespParser.PartialDataReturnsNullopt
+6/29 Test: RespParser.PartialDataReturnsNullopt
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.PartialDataReturnsNullopt" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.PartialDataReturnsNullopt" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.PartialDataReturnsNullopt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.PartialDataReturnsNullopt
+[       OK ] RespParser.PartialDataReturnsNullopt (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.PartialDataReturnsNullopt" end time: Jun 22 17:11 PDT
+"RespParser.PartialDataReturnsNullopt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/29 Testing: RespParser.EmptyFeed
+7/29 Test: RespParser.EmptyFeed
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.EmptyFeed" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.EmptyFeed" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.EmptyFeed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.EmptyFeed
+[       OK ] RespParser.EmptyFeed (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.EmptyFeed" end time: Jun 22 17:11 PDT
+"RespParser.EmptyFeed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/29 Testing: RespParser.PipelinedCommands
+8/29 Test: RespParser.PipelinedCommands
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.PipelinedCommands" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.PipelinedCommands" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.PipelinedCommands
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.PipelinedCommands
+[       OK ] RespParser.PipelinedCommands (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.PipelinedCommands" end time: Jun 22 17:11 PDT
+"RespParser.PipelinedCommands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/29 Testing: RespParser.NullBulkString
+9/29 Test: RespParser.NullBulkString
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespParser.NullBulkString" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespParser.NullBulkString" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespParser.NullBulkString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespParser
+[ RUN      ] RespParser.NullBulkString
+[       OK ] RespParser.NullBulkString (0 ms)
+[----------] 1 test from RespParser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespParser.NullBulkString" end time: Jun 22 17:11 PDT
+"RespParser.NullBulkString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/29 Testing: RespSerialize.SimpleString
+10/29 Test: RespSerialize.SimpleString
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.SimpleString" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.SimpleString" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.SimpleString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.SimpleString
+[       OK ] RespSerialize.SimpleString (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.SimpleString" end time: Jun 22 17:11 PDT
+"RespSerialize.SimpleString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/29 Testing: RespSerialize.BulkString
+11/29 Test: RespSerialize.BulkString
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.BulkString" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.BulkString" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.BulkString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.BulkString
+[       OK ] RespSerialize.BulkString (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.BulkString" end time: Jun 22 17:11 PDT
+"RespSerialize.BulkString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/29 Testing: RespSerialize.NullBulk
+12/29 Test: RespSerialize.NullBulk
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.NullBulk" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.NullBulk" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.NullBulk
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.NullBulk
+[       OK ] RespSerialize.NullBulk (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.NullBulk" end time: Jun 22 17:11 PDT
+"RespSerialize.NullBulk" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/29 Testing: RespSerialize.Integer
+13/29 Test: RespSerialize.Integer
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.Integer" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.Integer" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.Integer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.Integer
+[       OK ] RespSerialize.Integer (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.Integer" end time: Jun 22 17:11 PDT
+"RespSerialize.Integer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/29 Testing: RespSerialize.Error
+14/29 Test: RespSerialize.Error
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.Error" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.Error" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.Error
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.Error
+[       OK ] RespSerialize.Error (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.Error" end time: Jun 22 17:11 PDT
+"RespSerialize.Error" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/29 Testing: RespSerialize.EmptyBulkString
+15/29 Test: RespSerialize.EmptyBulkString
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.EmptyBulkString" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.EmptyBulkString" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.EmptyBulkString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.EmptyBulkString
+[       OK ] RespSerialize.EmptyBulkString (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.EmptyBulkString" end time: Jun 22 17:11 PDT
+"RespSerialize.EmptyBulkString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/29 Testing: RespSerialize.LargeInteger
+16/29 Test: RespSerialize.LargeInteger
+Command: "/home/raj/Desktop/key_val/build/tests/test_resp" "--gtest_filter=RespSerialize.LargeInteger" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"RespSerialize.LargeInteger" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RespSerialize.LargeInteger
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RespSerialize
+[ RUN      ] RespSerialize.LargeInteger
+[       OK ] RespSerialize.LargeInteger (0 ms)
+[----------] 1 test from RespSerialize (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RespSerialize.LargeInteger" end time: Jun 22 17:11 PDT
+"RespSerialize.LargeInteger" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/29 Testing: InMemoryEngine.SetAndGet
+17/29 Test: InMemoryEngine.SetAndGet
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.SetAndGet" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.SetAndGet" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.SetAndGet
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.SetAndGet
+[       OK ] InMemoryEngine.SetAndGet (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.SetAndGet" end time: Jun 22 17:11 PDT
+"InMemoryEngine.SetAndGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/29 Testing: InMemoryEngine.GetNonexistent
+18/29 Test: InMemoryEngine.GetNonexistent
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.GetNonexistent" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.GetNonexistent" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.GetNonexistent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.GetNonexistent
+[       OK ] InMemoryEngine.GetNonexistent (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.GetNonexistent" end time: Jun 22 17:11 PDT
+"InMemoryEngine.GetNonexistent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/29 Testing: InMemoryEngine.Overwrite
+19/29 Test: InMemoryEngine.Overwrite
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.Overwrite" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.Overwrite" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.Overwrite
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.Overwrite
+[       OK ] InMemoryEngine.Overwrite (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.Overwrite" end time: Jun 22 17:11 PDT
+"InMemoryEngine.Overwrite" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/29 Testing: InMemoryEngine.Del
+20/29 Test: InMemoryEngine.Del
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.Del" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.Del" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.Del
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.Del
+[       OK ] InMemoryEngine.Del (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.Del" end time: Jun 22 17:11 PDT
+"InMemoryEngine.Del" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/29 Testing: InMemoryEngine.DelNonexistent
+21/29 Test: InMemoryEngine.DelNonexistent
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.DelNonexistent" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.DelNonexistent" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.DelNonexistent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.DelNonexistent
+[       OK ] InMemoryEngine.DelNonexistent (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.DelNonexistent" end time: Jun 22 17:11 PDT
+"InMemoryEngine.DelNonexistent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/29 Testing: InMemoryEngine.Exists
+22/29 Test: InMemoryEngine.Exists
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.Exists" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.Exists" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.Exists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.Exists
+[       OK ] InMemoryEngine.Exists (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.Exists" end time: Jun 22 17:11 PDT
+"InMemoryEngine.Exists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/29 Testing: InMemoryEngine.EmptyKey
+23/29 Test: InMemoryEngine.EmptyKey
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.EmptyKey" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.EmptyKey" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.EmptyKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.EmptyKey
+[       OK ] InMemoryEngine.EmptyKey (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.EmptyKey" end time: Jun 22 17:11 PDT
+"InMemoryEngine.EmptyKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/29 Testing: InMemoryEngine.EmptyValue
+24/29 Test: InMemoryEngine.EmptyValue
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=InMemoryEngine.EmptyValue" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"InMemoryEngine.EmptyValue" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = InMemoryEngine.EmptyValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InMemoryEngine
+[ RUN      ] InMemoryEngine.EmptyValue
+[       OK ] InMemoryEngine.EmptyValue (0 ms)
+[----------] 1 test from InMemoryEngine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"InMemoryEngine.EmptyValue" end time: Jun 22 17:11 PDT
+"InMemoryEngine.EmptyValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/29 Testing: WalTest.RecoverAfterCrash
+25/29 Test: WalTest.RecoverAfterCrash
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=WalTest.RecoverAfterCrash" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"WalTest.RecoverAfterCrash" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.RecoverAfterCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.RecoverAfterCrash
+[       OK ] WalTest.RecoverAfterCrash (0 ms)
+[----------] 1 test from WalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.RecoverAfterCrash" end time: Jun 22 17:11 PDT
+"WalTest.RecoverAfterCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/29 Testing: WalTest.NoDataOnFirstRun
+26/29 Test: WalTest.NoDataOnFirstRun
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=WalTest.NoDataOnFirstRun" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"WalTest.NoDataOnFirstRun" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.NoDataOnFirstRun
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.NoDataOnFirstRun
+[       OK ] WalTest.NoDataOnFirstRun (0 ms)
+[----------] 1 test from WalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.NoDataOnFirstRun" end time: Jun 22 17:11 PDT
+"WalTest.NoDataOnFirstRun" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/29 Testing: WalTest.DeleteLogged
+27/29 Test: WalTest.DeleteLogged
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=WalTest.DeleteLogged" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"WalTest.DeleteLogged" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.DeleteLogged
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.DeleteLogged
+[       OK ] WalTest.DeleteLogged (0 ms)
+[----------] 1 test from WalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.DeleteLogged" end time: Jun 22 17:11 PDT
+"WalTest.DeleteLogged" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/29 Testing: WalTest.OverwriteInWAL
+28/29 Test: WalTest.OverwriteInWAL
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=WalTest.OverwriteInWAL" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"WalTest.OverwriteInWAL" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.OverwriteInWAL
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.OverwriteInWAL
+[       OK ] WalTest.OverwriteInWAL (0 ms)
+[----------] 1 test from WalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.OverwriteInWAL" end time: Jun 22 17:11 PDT
+"WalTest.OverwriteInWAL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/29 Testing: WalTest.PartialLastEntryIgnored
+29/29 Test: WalTest.PartialLastEntryIgnored
+Command: "/home/raj/Desktop/key_val/build/tests/test_storage" "--gtest_filter=WalTest.PartialLastEntryIgnored" "--gtest_also_run_disabled_tests"
+Directory: /home/raj/Desktop/key_val/build/tests
+"WalTest.PartialLastEntryIgnored" start time: Jun 22 17:11 PDT
+Output:
+----------------------------------------------------------
+Running main() from /home/raj/Desktop/key_val/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = WalTest.PartialLastEntryIgnored
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WalTest
+[ RUN      ] WalTest.PartialLastEntryIgnored
+[       OK ] WalTest.PartialLastEntryIgnored (0 ms)
+[----------] 1 test from WalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WalTest.PartialLastEntryIgnored" end time: Jun 22 17:11 PDT
+"WalTest.PartialLastEntryIgnored" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 22 17:11 PDT

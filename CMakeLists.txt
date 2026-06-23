@@ -16,3 +16,9 @@ add_executable(kv-server
 target_include_directories(kv-server PRIVATE src)
 target_compile_options(kv-server PRIVATE -O2 -Wall -Wextra -g)
 target_link_libraries(kv-server pthread)
+
+option(BUILD_TESTS "Build tests" ON)
+if(BUILD_TESTS)
+  enable_testing()
+  add_subdirectory(tests)
+endif()

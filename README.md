@@ -19,7 +19,7 @@ systems programming, storage engines, and distributed consensus.
 
 ### Phase 1 — Core Reliability
 - [x] Write-Ahead Log (WAL) — fsync every write before updating memory
-- [ ] Unit testing framework (Google Test / Catch2)
+- [x] Unit testing framework (Google Test, 29 tests)
 - [ ] Error handling — recover from corrupt WAL, bad RESP, partial writes
 - [ ] Graceful shutdown — flush WAL, close sockets cleanly
 
