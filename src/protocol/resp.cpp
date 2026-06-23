@@ -109,6 +109,21 @@ std::optional<Command> RESPReader::try_parse() {
   return cmd;
 }
 
+void RESPReader::reset() { buf_.clear(); }
+
+bool RESPReader::has_data() const { return !buf_.empty(); }
+
+bool RESPReader::starts_with_array() const {
+  return !buf_.empty() && buf_[0] == '*';
+}
+
+size_t RESPReader::buffer_size() const { return buf_.size(); }
+
+void RESPReader::skip_one() {
+  if (!buf_.empty())
+    buf_.erase(0, 1);
+}
+
 std::string RESPReader::serialize(const Reply &reply) {
   return std::visit(
       [](const auto &r) -> std::string {

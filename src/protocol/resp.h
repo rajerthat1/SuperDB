@@ -35,6 +35,12 @@ public:
   std::optional<Command> try_parse();
   static std::string serialize(const Reply &reply);
 
+  void reset();
+  bool has_data() const;
+  bool starts_with_array() const;
+  size_t buffer_size() const;
+  void skip_one();
+
 private:
   std::string buf_;
 };

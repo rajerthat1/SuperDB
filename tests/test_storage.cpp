@@ -154,3 +154,32 @@ TEST_F(WalTest, PartialLastEntryIgnored) {
     EXPECT_FALSE(wal.get("b").has_value());
   }
 }
+
+TEST_F(WalTest, CorruptMiddleEntrySkipped) {
+  {
+    InMemoryEngine inner;
+    WalEngine wal(inner, path_);
+    wal.set("a", "1");
+  }
+
+  int fd = open(path_, O_WRONLY | O_APPEND);
+  ASSERT_GE(fd, 0);
+  write(fd, "CORRUPT_GARBAGE_HERE", 20);
+  close(fd);
+
+  {
+    InMemoryEngine inner;
+    WalEngine wal(inner, path_);
+    wal.set("b", "2");
+    wal.set("c", "3");
+  }
+
+  {
+    InMemoryEngine inner;
+    WalEngine wal(inner, path_);
+    wal.replay();
+    EXPECT_TRUE(wal.get("a").has_value());
+    EXPECT_TRUE(wal.get("b").has_value());
+    EXPECT_TRUE(wal.get("c").has_value());
+  }
+}

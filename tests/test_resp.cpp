@@ -120,3 +120,59 @@ TEST(RespSerialize, LargeInteger) {
   Reply r = reply::Integer{-1};
   EXPECT_EQ(RESPReader::serialize(r), ":-1\r\n");
 }
+
+TEST(RespReader, ResetClearsBuffer) {
+  RESPReader reader;
+  reader.feed("*1\r\n$4\r\nPING\r\n", 14);
+  EXPECT_TRUE(reader.has_data());
+  reader.reset();
+  EXPECT_FALSE(reader.has_data());
+}
+
+TEST(RespReader, HasDataAfterFeed) {
+  RESPReader reader;
+  EXPECT_FALSE(reader.has_data());
+  reader.feed("*1\r\n$4\r\nPING\r\n", 14);
+  EXPECT_TRUE(reader.has_data());
+}
+
+TEST(RespReader, StartsWithArray) {
+  RESPReader reader;
+  EXPECT_FALSE(reader.starts_with_array());
+  reader.feed("*", 1);
+  EXPECT_TRUE(reader.starts_with_array());
+  reader.reset();
+  reader.feed("+", 1);
+  EXPECT_FALSE(reader.starts_with_array());
+}
+
+TEST(RespReader, BufferSize) {
+  RESPReader reader;
+  EXPECT_EQ(reader.buffer_size(), 0);
+  reader.feed("hello", 5);
+  EXPECT_EQ(reader.buffer_size(), 5);
+}
+
+TEST(RespReader, SkipOne) {
+  RESPReader reader;
+  reader.feed("abc", 3);
+  reader.skip_one();
+  EXPECT_EQ(reader.buffer_size(), 2);
+  reader.skip_one();
+  EXPECT_EQ(reader.buffer_size(), 1);
+  reader.skip_one();
+  EXPECT_EQ(reader.buffer_size(), 0);
+  reader.skip_one(); // no-op on empty
+  EXPECT_EQ(reader.buffer_size(), 0);
+}
+
+TEST(RespReader, SkipOnePreservesRemaining) {
+  RESPReader reader;
+  reader.feed("xyz", 3);
+  reader.skip_one();
+  EXPECT_TRUE(reader.has_data());
+  // remaining should be "yz"
+  reader.feed("", 0); // no-op, just check state
+  // We can't easily check the content, but we can verify size
+  EXPECT_EQ(reader.buffer_size(), 2);
+}

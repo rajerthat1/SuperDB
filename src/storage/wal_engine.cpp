@@ -79,11 +79,16 @@ void WalEngine::replay() {
 
   RESPReader reader;
   reader.feed(buf.data(), buf.size());
-  while (auto cmd = reader.try_parse()) {
-    if (cmd->name == "SET" && cmd->args.size() >= 2)
-      inner_.set(cmd->args[0], cmd->args[1]);
-    else if (cmd->name == "DEL" && cmd->args.size() >= 1)
-      for (const auto &key : cmd->args)
-        inner_.del(key);
+  while (reader.has_data()) {
+    auto cmd = reader.try_parse();
+    if (cmd) {
+      if (cmd->name == "SET" && cmd->args.size() >= 2)
+        inner_.set(cmd->args[0], cmd->args[1]);
+      else if (cmd->name == "DEL" && cmd->args.size() >= 1)
+        for (const auto &key : cmd->args)
+          inner_.del(key);
+    } else {
+      reader.skip_one();
+    }
   }
 }

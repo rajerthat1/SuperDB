@@ -1,5 +1,5 @@
 {
-  "tests": 13,
+  "tests": 14,
   "name": "AllTests",
   "testsuites": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "name": "WalTest",
-      "tests": 5,
+      "tests": 6,
       "testsuite": [
         {
           "name": "RecoverAfterCrash",
@@ -76,6 +76,11 @@
           "name": "PartialLastEntryIgnored",
           "file": "\/home\/raj\/Desktop\/key_val\/tests\/test_storage.cpp",
           "line": 137
+        },
+        {
+          "name": "CorruptMiddleEntrySkipped",
+          "file": "\/home\/raj\/Desktop\/key_val\/tests\/test_storage.cpp",
+          "line": 158
         }
       ]
     }

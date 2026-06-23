@@ -10,5 +10,6 @@ int main() {
   Server server(6379, wal);
   std::cout << "Listening on port 6379..." << std::endl;
   server.run();
+  std::cout << "Shutting down..." << std::endl;
   return 0;
 }
