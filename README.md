@@ -62,6 +62,20 @@ systems programming, storage engines, and distributed consensus.
 
 ---
 
+### Phase 5 — Advanced Networking
+- [ ] Unix domain sockets (`AF_UNIX`) — local client IPC, bypass TCP stack
+- [ ] TCP keepalive (`SO_KEEPALIVE`, `TCP_KEEPIDLE`) — dead peer detection
+- [ ] Proper connection teardown — `SO_LINGER`, half-close via `shutdown()`
+- [ ] Protocol-agnostic address resolution (`getaddrinfo`, IPv4 + IPv6)
+- [ ] Non-blocking connect — foundation for async replication client
+- [ ] UDP multicast service discovery — peers find each other on LAN
+- [ ] Out-of-band data handling
+
+**Topics:** Unix domain protocols, TCP tuning, graceful shutdown, address
+  resolution, concurrent connect patterns, multicast, signal-driven I/O
+
+---
+
 ## How to build & run
 
 ```bash
@@ -69,4 +83,3 @@ cmake -B build && cmake --build build
 ./build/kv-server
 redis-cli PING
 ```
-deal with scaling issues

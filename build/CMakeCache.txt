@@ -34,7 +34,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -60,7 +60,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -389,7 +389,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=3
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -562,7 +562,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/linuxbrew/.linuxbrew/bin/python3.14][found components: Interpreter ][v3.14.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/linuxbrew/.linuxbrew/bin/python3.14][found components: Interpreter ][v3.14.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //CMAKE_INSTALL_PREFIX during last run
@@ -574,7 +574,7 @@ _Python3_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
 _Python3_EXECUTABLE:INTERNAL=/home/linuxbrew/.linuxbrew/bin/python3.14
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;5;64;32;<none>;cpython-314-x86_64-linux-gnu;abi3;/home/linuxbrew/.linuxbrew/opt/python@3.14/lib/python3.14;/home/linuxbrew/.linuxbrew/opt/python@3.14/lib/python3.14;/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages;/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;14;6;64;32;<none>;cpython-314-x86_64-linux-gnu;abi3;/home/linuxbrew/.linuxbrew/opt/python@3.14/lib/python3.14;/home/linuxbrew/.linuxbrew/opt/python@3.14/lib/python3.14;/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages;/home/linuxbrew/.linuxbrew/lib/python3.14/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=7af9f627072ee308cc7c376639b4782b
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=

@@ -88,3 +88,14 @@ events:
     message: |
       The system is: Linux - 7.0.0-22-generic - x86_64
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 7.0.0-22-generic - x86_64
+...
