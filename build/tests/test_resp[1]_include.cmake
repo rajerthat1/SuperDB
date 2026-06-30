@@ -1,5 +1,0 @@
-if(EXISTS "/home/raj/Desktop/key_val/build/tests/test_resp[1]_tests.cmake")
-  include("/home/raj/Desktop/key_val/build/tests/test_resp[1]_tests.cmake")
-else()
-  add_test(test_resp_NOT_BUILT test_resp_NOT_BUILT)
-endif()

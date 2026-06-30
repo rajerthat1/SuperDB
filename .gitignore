@@ -1,0 +1,23 @@
+# Build
+build/
+
+# Compiled objects / binaries
+*.o
+*.o.d
+*.a
+*.so
+*.out
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Runtime artifacts
+wal.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

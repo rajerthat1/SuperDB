@@ -44,9 +44,13 @@ systems programming, storage engines, and distributed consensus.
 - [ ] Benchmark suite / `/proc` metrics monitoring
 - [ ] Memory paging awareness (huge pages, mmap for SSTables)
 - [ ] CPU scheduling / coalescing / io_uring (replace epoll)
+- [ ] SIMD-accelerated RESP parsing — SSE2 digit scan in `try_parse_int()`
+- [ ] WAL CRC32 integrity checks via `_mm_crc32_u64` (SSE4.2)
+- [ ] Ring buffer for connection read/write buffers (eliminate O(n) `memmove`)
+- [ ] `std::to_chars` for reply serialization (stack-allocated, no heap)
 
 **Topics:** lock-free data structures, memory ordering, hazard pointers,
-  manual atomics, kernel bypass, performance profiling
+  manual atomics, SIMD intrinsics, kernel bypass, performance profiling
 
 ---
 
@@ -68,11 +72,9 @@ systems programming, storage engines, and distributed consensus.
 - [ ] Proper connection teardown — `SO_LINGER`, half-close via `shutdown()`
 - [ ] Protocol-agnostic address resolution (`getaddrinfo`, IPv4 + IPv6)
 - [ ] Non-blocking connect — foundation for async replication client
-- [ ] UDP multicast service discovery — peers find each other on LAN
-- [ ] Out-of-band data handling
 
 **Topics:** Unix domain protocols, TCP tuning, graceful shutdown, address
-  resolution, concurrent connect patterns, multicast, signal-driven I/O
+  resolution, concurrent connect patterns
 
 ---
 
